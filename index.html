@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" oneclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#testimonial">Testmonial</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, i'm<br><span>Awa Egbichi</span></h2>
+            <h3>I'm a Graphics Designer</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <p>I'm a Graphics Designer and i have been designing for a year now.
+                    To me Graphics is like bringing your imagination to reality in form of colors,pictures etc.
+                    Its really a wonderful experience and am very enthusaistic about my growth.
+                </p>
+            </div>
+            <div class="w50">
+                <img src="pix.jpg.jpg" class="img" width="300px" height="300px">
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="heading white"> 
+            <h2>Our Services</h2>
+            <p>Fliers, Logos, Business Card, Mockups etc</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="flyer.jpg.jpg" width="200px" height="200px">
+                <h2>Flyer</h2>
+                <p>We deliver the best designs</p>
+            </div>
+                <div class="servicesBx">
+                    <img src="logo.png.png" width="200px" height="200px">
+                    <h2>logo</h2>
+                    <p>Our logo designs are explicit</p>
+                </div>
+                    <div class="servicesBx">
+                        <img src="business.jpg.jpg" width="200px" height="200px">
+                        <h2>Business Card</h2>
+                        <p>We deliver quality business cards</p>
+                    </div>
+                        <div class="servicesBx">
+                            <img src="animation.jpg.jpg" width="200px" height="200px">
+                            <h2>Animation</h2>
+                            <p>Our 3d animation is always catchy</p>
+                        </div>
+        </div>
+    </section>
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>Our Latest Work</h2>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <img src="logo.jpg.jpg"width="200px" height="200px">
+            </div>
+            <div class="workBx">
+                <img src="hack.jpg.jpg"width="200px" height="200px">
+            </div>
+            <div class="workBx">
+                <img src="img.jpg.jpg"width="200px" height="200px">
+            </div>
+            <div class="workBx">
+                <img src="biz.jpg.jpg" width="200px" height="200px">
+            </div>
+        </div>
+            <div class="heading">
+                <a href="#" class="btn">View More</a>
+            </div>
+    </section>
+
+    <section class="testimonial" id="testimonial">
+        <div class="heading">
+          <h2>Testimonial</h2>
+          <p>See what our clients has to say...</p>  
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <p>Working with him is always amazing.
+                    the dexterity of his designs are top notch;<br>
+                    i recommend him to anyone who is looking for a designer.
+                </p>
+                <h3>Clark Ezema<br><span>HSB Manager</span></h3>
+            </div>
+        <div class="testimonialBx">
+            <p>We have been friends for years now and i can is the young man<br>
+             is very honest and sincere; he delivers right on time and his designs are neat.
+            </p>
+            <h3>Ezedibia Steve<br><span>CEO,Value Center Tech.</span></h3>
+        </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <div class="contactInfoBx">
+                 <div class="box">   
+                 <div class="icon">
+                 <i class="fa fa-map-marker"></i>
+                 </div> 
+                 <div class="text">
+                     <h3>Address</h3>
+                     <p>Hilltop Road,<br>By SS Field <br>Abakaliki.</p>
+                    </div>
+                    </div>
+                    <div class="box">   
+                        <div class="icon">
+                        <i class="fa fa-phone fa-1x phone-custom"></i>
+                        </div>   
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>08135272252</p>
+                    </div>
+                  </div>
+                  <div class="box">   
+                    <div class="icon">   
+                    <i class="fa fa-envelope fa-1x envelope-custom"></i> 
+                  </div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>Awaokpan@yahoo.com</p>
+                </div>
+              </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Info</h3>
+                    <input type="text" name="" placeholder="FullName">
+                    <input type="text" name="" placeholder="Email">
+                    <textarea placeholder="Your Message"></textarea>
+                    <input type="submit" value="send">
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>Copyright &#x24B8 2021. All Right Reserved.</p>
+    </div>
+    <script type="text/javascript">
+      window.addEventListener('scroll', function(){
+          var header = document.querySelector('header');
+          header.classList.toggle('sticky', window.scrollY > 0);
+      });
+
+      function toggleMenu(){
+          var menuToggle = document.querySelector('.toggle');
+          var menu = document.querySelector('menu');
+          menuToggle.classList.toggle('active');
+          menu.classList.toggle('active');
+      }
+    </script>
+</body>
+</html>
